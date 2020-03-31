@@ -1,5 +1,5 @@
 # Path to the oh-my-zsh installation.
-export ZSH=/Users/Nico/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Stored in ~/.oh-my-zsh/themes/
@@ -35,6 +35,9 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Brew
+export PATH=$HOME/.brew/bin:$PATH
 
 # GO CONFIG
 export GOPATH=$HOME/go
