@@ -7,11 +7,11 @@ fi
 
 if [ ! -e $HOME/.oh-my-zsh/themes/theme_perso.zsh-theme ]
 then
-    ln -s $HOME/Settings/ZSH_Custom/theme_perso.zsh-theme $HOME/.oh-my-zsh/themes/theme_perso.zsh-theme
+    ln -s $(pwd)/theme_perso.zsh-theme $HOME/.oh-my-zsh/themes/theme_perso.zsh-theme
 fi
 
 if [ ! -L $HOME/.zshrc ]
 then
     mv $HOME/.zshrc $HOME/.zshrc.old
-    ln -s $HOME/Settings/ZSH_Custom/linux/.zshrc $HOME/.zshrc
+    ln -s $(pwd)/linux/.zshrc $HOME/.zshrc
 fi
