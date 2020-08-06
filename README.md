@@ -9,6 +9,10 @@ Iterm2 + ZSH + OhMyZsh
 [Pour configurer Iterm et zsh sur son Mac](http://blog.tristanfarneau.com/optimiser-et-personnaliser-son-terminal-sur-mac/)
 
 [Installer Oh My Zsh](https://korben.info/oh-my-zsh-framework-booster-shell-zsh.html)
+or
+```
+sh -c "$ (curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 ## Utilisation
 
