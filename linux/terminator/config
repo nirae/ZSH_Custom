@@ -1,0 +1,29 @@
+[global_config]
+  title_transmit_bg_color = "#859900"
+[keybindings]
+  rotate_cw = <Primary>r
+  rotate_ccw = <Primary><Shift>r
+  split_horiz = <Shift><Super>d
+  split_vert = <Super>d
+  next_tab = <Primary>Right
+  prev_tab = <Primary>Left
+  new_window = <Primary><Shift>n
+[profiles]
+  [[default]]
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#f3f3f3"
+    palette = "#babdb6:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#babdb6:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[Nouveau profil]]
+    background_color = "#2e3436"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
